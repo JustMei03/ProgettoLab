@@ -5,11 +5,13 @@ const form = document.querySelector("#composer");
 const input = document.querySelector("#message");
 const sendButton = document.querySelector("#send");
 
+const PREFISSI = { user: "Tu", assistant: "Bot", error: "Errore" };
+
 function addMessage(role, text) {
   document.querySelector("#empty-state")?.remove();
-  const message = document.createElement("div");
+  const message = document.createElement("p");
   message.className = `message ${role}`;
-  message.textContent = text;
+  message.textContent = `${PREFISSI[role]}: ${text}`;
   chat.append(message);
   message.scrollIntoView({ block: "nearest" });
 }
