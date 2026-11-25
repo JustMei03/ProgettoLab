@@ -1,0 +1,1 @@
+"""Estrae il testo dai PDF, divide il documento in singole frasi rispettando la punteggiatura e applica il filtro della soglia > 40%."""

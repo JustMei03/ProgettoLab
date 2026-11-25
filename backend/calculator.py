@@ -1,0 +1,1 @@
+"""Carica il modello salvato in memoria, calcola la percentuale per ogni frase ed estrae le "parole spia" che hanno attivato il sarcasmo."""

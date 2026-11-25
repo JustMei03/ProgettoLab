@@ -1,0 +1,1 @@
+"""Legge il dataset CSV, pulisce i testi, addestra il modello sul sarcasmo e salva il file"""
