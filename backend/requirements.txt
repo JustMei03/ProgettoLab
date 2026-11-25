@@ -1,2 +1,8 @@
 fastapi>=0.110
-uvicorn[standard]>=0.29
+uvifastapi
+uvicorn
+python-multipart
+pypdf
+pandas
+scikit-learn
+joblibcorn[standard]>=0.29
